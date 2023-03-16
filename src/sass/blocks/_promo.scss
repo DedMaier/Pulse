@@ -1,0 +1,54 @@
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../../img/main.jpg) center center/cover no-repeat;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__header {
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    font: 700 42px/42px "MuseoModerno" sans-serif;
+    color: #ffffff;
+  }
+  &__subheader {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font: 500 24px/24px "MuseoModerno" sans-serif;
+    color: #ffffff;
+  }
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 425px;
+    margin-bottom: 65px;
+  }
+  &__icon {
+    width: 108px;
+    text-align: center;
+    font: 500 14px/14px "MuseoModerno" sans-serif;
+    color: #ffffff;
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+  &__link {
+    font: 500 16px/25px "MuseoModerno" sans-serif;
+    color: #ffffff;
+    a {
+      margin-left: 5px;
+      color: #fff;
+      text-decoration: underline;
+      text-transform: uppercase;
+    }
+  }
+  &__katalog:hover {
+    color: orange;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+  }
+  }
