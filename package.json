@@ -414,5 +414,13 @@
     "yargs-parser": "^5.0.0",
     "yeast": "^0.1.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DedMaier/Pulse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DedMaier/Pulse/issues"
+  },
+  "homepage": "https://github.com/DedMaier/Pulse#readme",
   "description": ""
 }
